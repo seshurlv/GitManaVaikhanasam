@@ -1,0 +1,65 @@
+<div class="main-content">
+    <div class="container-fluid">
+      <section class="well7">
+          <div class="container containerWidth95">
+              <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                      <h2 style="text-align: center;">
+                          <img class="pageLogoSize" border="0" src="assets/img/common/phone_book_edit.png"> Vaikhanasa Directory <img class="pageLogoSize" border="0" src="assets/img/common/phone_book_edit.png">
+                      </h2>
+                      <br/>
+                      <p>
+                          Vaikhanasa Directory is the service to make information available regarding our vaikhanasas residing at different parts of this world. Please let us know the names of the persons not listed in this table through the feedback form available in contact page.
+
+                          We will make the best possible effort to include the names as early as posssible. 
+                      </p>
+                      <p>
+                          Please send the below details to get added into this list:
+                          <b>
+                              Name (full name with surname), Gotram, Fathers Name, Native place, Phone, Email, Address, Profession, photo  
+                          </b>
+                          via email provided below -- seshu.manavaikhanasam@gmail.com
+                      </p>
+                      <br/>
+                      <div>
+                          <table ng-table="usersTable" show-filter="true" class="table table-hover table-bordered table-responsive">
+                            <tr>
+                              <th>Sno</th>
+                              <th>UserImage</th>
+                              <th>Name</th>
+                              <th>Fathers Name</th>
+                              <th>Gotram</th>
+                              <!-- <th>Landline</th>
+                              <th>Mobile</th> 
+                              <th>Email</th> 
+                              <th>Address</th>
+                              <th>Profession</th> -->
+                            </tr>
+                            <tr *ngFor="let user of directoryList | paginate: { itemsPerPage: 10, currentPage: p, id: 'p' }">
+                                <td data-title="'SNO'" sortable="'Sno'">{{user.Sno}}</td>
+                                <td class='tdImageColumn'>
+                                      <img *ngIf="user.UserImage != ''" class='contactImage DirectoryUserImage' src='assets\\img\\faces\\{{user.UserImage}}'/>
+                                      <img *ngIf="user.UserImage == ''" class='contactImage DirectoryUserImage' src='assets\\img\\faces\\personImage.jpg'/>
+                                  </td>
+                                <td data-title="'NAME'" filter="{ 'Name': 'text' }">{{user.Name}}</td>
+                                <td data-title="'FATHER NAME'" filter="{ 'Father': 'text' }">{{user.Father}}</td>
+                                <td data-title="'GOTRAM'" filter="{ 'Gotram': 'text' }">{{user.Gotram}}</td>    
+                                <!-- <td data-title="'LANDLINE'" filter="{ 'LandLine': 'text' }" ng-bind="user.LandLine"></td> -->
+                                <!--<td data-title="'MOBILE'" filter="{ 'Mobile': 'text' }" ng-bind="user.Mobile"></td>-->
+                                <!-- <td data-title="'EMAIL'" filter="{ 'Email': 'text' }">{{user.Email}}</td>                  -->
+                                <!-- <td data-title="'NATIVE'" filter="{ 'Native': 'text' }" ng-bind="user.Native"></td>     -->
+                                <!--<td data-title="'ADDRESS'" filter="{ 'Address': 'text' }" ng-bind="user.Address"></td>-->
+                                <!--<td data-title="'PROFESSION'" filter="{ 'Professsion': 'text' }" ng-bind="user.Professsion"></td>-->
+                            </tr>
+                          </table>   
+                          <pagination-controls (pageChange)="p = $event" id="p" class="pagination-list pagination-bottom"></pagination-controls>                           
+                      </div> 
+                  </div>
+              </div>
+              <div class="row">
+
+              </div>
+          </div>
+      </section>
+    </div>
+</div>

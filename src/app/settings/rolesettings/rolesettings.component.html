@@ -1,0 +1,28 @@
+<div class="content" style="padding: 30px 15px;overflow: hidden;">
+  <div class="container">
+    <div class="row card-padding" *ngIf=" countriesArr?.length != 0 || seedClassArr?.length != 0">
+        <div class="col-md-11">
+            <div class="card card-padding">
+
+                <div class="header">{{title}}</div>
+                
+                <div class="row">
+                    <div class="col-md-4 ngxSelect">
+                        <div class="form-group" *ngIf="!inspection">
+                            <label class="control-label">Select Role*</label>
+                            <select class="form-control custom-select" [(ngModel)]="roleId" (change)="selectRole(roleId)">
+                                <option *ngIf="!roleId" disabled [ngValue]="roleId ? null : roleId">Select Role</option>
+                                <option *ngFor="let roles of RolesArr" [ngValue]="roles.RoleID">
+                                    {{roles.Name}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

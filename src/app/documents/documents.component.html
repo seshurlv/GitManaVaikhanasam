@@ -1,0 +1,49 @@
+<section class="well7">
+  <div class="container containerWidth95">
+      <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+              <h2 style="text-align: center;">
+                  <img class="pageLogoSize" border="0" src="assets/img/common/documents.png"> Documents <img class="pageLogoSize" border="0" src="assets/img/common/documents.png">
+              </h2>
+              <br/>
+              <p>
+                  All downloadable documents will be available here for free download here. <br/><br/>
+
+                  Users can make use of this service to download required <b>documents / application forms / any circulars / or any other important announcements released </b> for here
+              </p>                        
+              <br/>
+              <h4>
+                  APPLICATIONS
+              </h4>
+              <table id="downloadApplicationsTable" class="table table-bordered table-condensed table-hover table-striped">
+                  <tr>
+                      <th>SNO</th>
+                      <th>NAME</th>                                
+                      <th>FILE</th>
+                  </tr>
+                  <tr *ngFor="let item of downloadApplicationsItemList | paginate: { itemsPerPage: 10, currentPage: p, id: 'p' }">
+                      <td class='dataColumnStyle textCenter'>{{item.SNO}}</td>  
+                      <td class='dataColumnStyle'>{{item.NAME}}</td>
+                      <td class='dataColumnStyle textCenter tdDownloadImageColumn'><a class='cursorPointer' href={{item.FILEURL}} download><img src={{item.IMGURL}}/></a></td>
+                  </tr>
+              </table>
+              <br/>
+              <h4>
+                  OTHERS
+              </h4>
+              <table id="downloadOthersTable" class="table table-bordered table-condensed table-hover table-striped">
+                  <tr>
+                      <th>SNO</th>
+                      <th>NAME</th>                                
+                      <th>FILE</th>
+                  </tr>
+                  <tr *ngFor="let item of downloadOthersItemList | paginate: { itemsPerPage: 10, currentPage: q, id: 'q' }">
+                      <td class='dataColumnStyle textCenter'>{{item.SNO}}</td>  
+                      <td class='dataColumnStyle'>{{item.NAME}}</td>
+                      <td class='dataColumnStyle textCenter tdDownloadImageColumn'><a class='cursorPointer' href={{item.FILEURL}} download><img src={{item.IMGURL}}/></a></td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+  </div>
+</section>

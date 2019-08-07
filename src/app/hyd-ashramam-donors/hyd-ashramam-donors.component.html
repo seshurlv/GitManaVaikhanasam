@@ -1,0 +1,84 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <section class="well7">
+        <div class="container" ng-controller="tableController">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h2>
+                        Sri Vaikhanasa Ashramam, Hyderabad - Donors List
+                    </h2>
+                    <br/>
+                    <p>
+                        Following are the list of donors who helped us in realizing our dream of building our own “Sri Vaikhanasa Ashramam” at Hyderabad. 
+                    </p>
+                    <br/>
+                    <div>
+                        <table ng-table="donersTable" show-filter="true" class="table table-striped table-hover table-bordered">
+                            <thead>
+                                <tr>
+                                  <th>Sno</th>
+                                  <th>NAME</th>
+                                  <th>PLACE</th>
+                                  <th>AMOUNT</th>
+                                  <th>DATE</th>
+                                  <th>RECEIPT NO</th>                                  
+                                  <!-- <th style="cursor:pointer;" (click)="toogleArrow(arrow)">Registered Date
+                                    <i class="fas fa-chevron-up" *ngIf="arrow"></i>
+                                    <i class="fas fa-chevron-down" *ngIf="!arrow"></i>
+                                  </th> -->
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr *ngFor="let donor of donorsList | reverse:arrow:sortgrower  | paginate: { itemsPerPage: 10, currentPage: p, id: 'p' }">
+                                    <td data-title="'SNO'">{{donor.SNO}}</td>
+                                    <td data-title="'NAME'">{{donor.TITLE}} {{donor.SURNAME}} {{donor.NAME}}</td>
+                                    <td data-title="'PLACE'">{{donor.PLACE}}</td>    
+                                    <td data-title="'AMOUNT'">{{donor.AMOUNT}}</td>
+                                    <td data-title="'DATE'">{{donor.DATE}}</td>
+                                    <td data-title="'RECEIPT NO'">{{donor.RECEIPT}}</td>
+                                </tr>
+                              </tbody>
+                        </table>  
+                        <pagination-controls (pageChange)="p = $event" id="p" class="pagination-list"></pagination-controls>  
+                    </div>
+                    <br/><br/>
+                    <div>
+                        <p>
+                            <b>Following are the items that are donated to SriVikhanasramam, Hyderabad</b>
+                        </p>
+                        <br/>
+                        <div>
+                            <table ng-table="itemsTable" show-filter="true" class="table table-striped table-hover table-bordered">
+                                <thead>
+                                    <tr>
+                                      <th>Sno</th>
+                                      <th>NAME</th>
+                                      <th>PLACE</th>
+                                      <th>ITEM</th>
+                                      <th>IMG</th>                                                                            
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr *ngFor="let item of itemsList | paginate: { itemsPerPage: 10, currentPage: q, id: 'q'}">
+                                        <td data-title="'SNO'">{{item.SNO}}</td>
+                                        <td data-title="'NAME'">{{item.TITLE}} {{item.SURNAME}} {{item.NAME}}</td>
+                                        <td data-title="'PLACE'">{{item.PLACE}}</td>    
+                                        <td data-title="'ITEM'">{{item.ITEM}}</td>
+                                        <td data-title="'IMG'"><img [src]="item.IMG" style="width:50px;height: 50px;" (click)="showImage(item.IMG, item.ITEM)" /></td>                                        
+                                    </tr>      
+                                  </tbody>                      
+                            </table>
+                            <pagination-controls (pageChange)="q = $event" id="q" class="pagination-list"></pagination-controls>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                      <span class="close" id="close01" (click)="closeFunction()">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+  </div>
+</div>
