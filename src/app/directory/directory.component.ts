@@ -295,19 +295,6 @@ export class DirectoryComponent implements OnInit {
     "UserImage":""
     }
     ,{
-    "Sno":23,
-    "Name":"",
-    "Father":"",
-    "Gotram":"",
-    "LandLine":"",
-    "Mobile":0,
-    "Email":"",
-    "Native":"",
-    "Address":"nacharam",
-    "Professsion":"",
-    "UserImage":""
-    }
-    ,{
     "Sno":24,
     "Name":"Narayanam Radhakrishna",
     "Father":"N Srinivasa Charyulu",
@@ -376,7 +363,7 @@ export class DirectoryComponent implements OnInit {
     "Sno":29,
     "Name":"Brundavanam Venkata Narasimha Appalacharyulu Vedadri",
     "Father":"",
-    "Gotram":"",
+    "Gotram":"Aatreyasa",
     "LandLine":"040-27154048",
     "Mobile":9010292850,
     "Email":"",
@@ -648,13 +635,13 @@ export class DirectoryComponent implements OnInit {
     ,{
     "Sno":50,
     "Name":"Deevi Rambabu",
-    "Father":"",
-    "Gotram":"",
+    "Father":"Late. Deevi Narasimha Charyulu",
+    "Gotram":"Goutamasa",
     "LandLine":"",
     "Mobile":9849386284,
-    "Email":"",
-    "Native":"",
-    "Address":"h.n0:104, venkatadri township, choudaryguda village, ghatkesar mandal",
+    "Email":"rambabudeevu6686@gmail.com",
+    "Native":"Eeluru",
+    "Address":"HNO # 10-79, Venkatadri township,  Ramalayam Colony, choudaryguda village, ghatkesar(M), Medchel (Dt)",
     "Professsion":"Archakatvam",
     "UserImage":""
     }
@@ -688,7 +675,7 @@ export class DirectoryComponent implements OnInit {
     "Sno":53,
     "Name":"Brundavanam Surya Narayana Murthy",
     "Father":"",
-    "Gotram":"",
+    "Gotram":"Aatreyasa",
     "LandLine":"",
     "Mobile":9493064455,
     "Email":"vanam.murthi@gmail.com",
@@ -2455,14 +2442,14 @@ export class DirectoryComponent implements OnInit {
     ,{
     "Sno":189,
     "Name":"Peddinti SatyaRamesh",
-    "Father":"",
-    "Gotram":"",
+    "Father":"P Kantha Charyulu",
+    "Gotram":"Bhargavasa",
     "LandLine":"",
     "Mobile":9966029563,
     "Email":"psramesh2864@yahoo.com",
-    "Native":"",
+    "Native":"Amalapuram",
     "Address":"Plot No. 136, Bank Colony, Road no. 7, Suchitra Circle, Qutbullapur Mandal, Hyderabad - 500067",
-    "Professsion":"",
+    "Professsion":"Real estate business",
     "UserImage":""
     }
     ,{
@@ -2566,6 +2553,201 @@ export class DirectoryComponent implements OnInit {
     "Email":"bramgovardhana@gmail.com",
     "Native":"",
     "Address":"",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":198,
+    "Name":"Dr. Rompicherla Srinivasa Deekshitulu",
+    "Father":"R Krishnama Charyulu",
+    "Gotram":"Bhargavasa",
+    "LandLine":"040-23160551",
+    "Mobile":9949699246,
+    "Email":"rsdeekshitulu@gmail.com",
+    "Native":"Edlapalli, Tenali",
+    "Address":"Plot no. 463, Road no. 36, Vivekananda Nagar Colony, Kukatpally, Hyderabad 500072",
+    "Professsion":"Doctor",
+    "UserImage":""
+    }
+    ,{
+    "Sno":199,
+    "Name":"Aravapalli Yogananda Deekshitulu",
+    "Father":"A. Vikhanasa Charyulu",
+    "Gotram":"Bharadwajasa",
+    "LandLine":"040-29805599",
+    "Mobile":9440068117,
+    "Email":"yoganand99@gmail.com",
+    "Native":"Aravapalli, Suryapet",
+    "Address":"D-402, Kalakriti Apartments, Tarnaka, Secunderabad - 500017",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":200,
+    "Name":"Sribhashyam Vijaya Saradhi",
+    "Father":"S R Krishnama Charyulu",
+    "Gotram":"Goutamasa",
+    "LandLine":"040-40264827",
+    "Mobile":9849702285,
+    "Email":"vijaysaradhi2000@yahoo.co.in",
+    "Native":"Kattevaram, Tenali",
+    "Address":"Hno. 11-3-235/201, Road no. 6, Sri Venkateswara colony, SaroorNagar, Hyderabad - 500035",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":201,
+    "Name":"Brindavanam VSSV Prasad",
+    "Father":"Late. SingaraCharyulu",
+    "Gotram":"",
+    "LandLine":"",
+    "Mobile":8985022007,
+    "Email":"prasadbrindavanam@gmail.com",
+    "Native":"Velagathodu, E.Godavari",
+    "Address":"SF-2, Venkata Sai Villa, Road no. 5, MJ Colony, Moula-Ali, Hyderabad - 500040 ",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":202,
+    "Name":"Chakravartula Krishna Mohan",
+    "Father":"Ch Sreenivas",
+    "Gotram":"Aatreyasa",
+    "LandLine":"",
+    "Mobile":9676198293,
+    "Email":"",
+    "Native":"",
+    "Address":"Sri Venkateshwara Swamy Temple, Mithila Nagar, Near Pragathi Nagar, Kukatpally",
+    "Professsion":"Archaka",
+    "UserImage":""
+    }
+    ,{
+    "Sno":203,
+    "Name":"Pedapudi Rama Gopal",
+    "Father":"Late P Janardhana Chary",
+    "Gotram":"Aatreyasa",
+    "LandLine":"",
+    "Mobile":9246178434,
+    "Email":"ramagopalp@delloitte.com",
+    "Native":"",
+    "Address":"6-110/18, Navatha Avenue, Nagaram, RR Dist, Hyderabad - 500083",
+    "Professsion":"Software",
+    "UserImage":""
+    }
+    ,{
+    "Sno":204,
+    "Name":"Vedantam Uday Bhaskar",
+    "Father":"Late V Sesha Charyulu",
+    "Gotram":"Aatreyasa",
+    "LandLine":"",
+    "Mobile":8106874332,
+    "Email":"",
+    "Native":"pedapudi",
+    "Address":"1-1-5, Flat no. 105, Sai Krupa Apartments, Jawahar Nagar, RTC X Road, Chikadpally, Hyderabad",
+    "Professsion":"Retd. Govt. Employee",
+    "UserImage":""
+    }
+    ,{
+    "Sno":205,
+    "Name":"Malyavantam Samdeep",
+    "Father":"M Krishnama Charyulu",
+    "Gotram":"Goutamasa",
+    "LandLine":"",
+    "Mobile":9493244561,
+    "Email":"samdeepmalyavantham@gmail.com",
+    "Native":"Tenali, Guntur",
+    "Address":"Door no. 20-9-13, Sivalayam Street, Chinaravuru, Tenali",
+    "Professsion":"Solor Power Plant",
+    "UserImage":""
+    }
+    ,{
+    "Sno":206,
+    "Name":"Peddinti RadhaKrishna",
+    "Father":"P V S Swamy",
+    "Gotram":"Bhargavasa",
+    "LandLine":"",
+    "Mobile":9885660080,
+    "Email":"rk.prkmsc@gmail.com",
+    "Native":"Makthal",
+    "Address":"3-28/1, Chikkalavari garuvu, Sarpavaram, Kakinada - 533005",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":207,
+    "Name":"Khandavilli Venkata Ramana Murty",
+    "Father":"K Anantha Tirumala Charyulu",
+    "Gotram":"Bhargavasa",
+    "LandLine":"",
+    "Mobile":9848832538,
+    "Email":"kvrm1954@gmail.com",
+    "Native":"Kakinada, East Godavari",
+    "Address":"32-536, HAL Colony, Jeedimetla (Near UMCC Hospital), Hyderabad - 500059",
+    "Professsion":"Retd. Chief Tech. Officer",
+    "UserImage":""
+    }
+    ,{
+    "Sno":208,
+    "Name":"Paramkusam A R Prasad",
+    "Father":"P RamaCharyulu",
+    "Gotram":"Aatreyasa",
+    "LandLine":"",
+    "Mobile":9945657203,
+    "Email":"adi.raghava@gmail.com",
+    "Native":"Perramitta, Prakasam Dist",
+    "Address":"Hno. 125/5, Engineers Enclave, Chanda Nagar, Hyderabad - 500050",
+    "Professsion":"Sr. Design Lead - Qualcomm",
+    "UserImage":""
+    }
+    ,{
+    "Sno":209,
+    "Name":"Rompicherla Bhattar Bala Krishnama Charyulu",
+    "Father":"R Kodanda RamaCharyulu",
+    "Gotram":"Bhargavasa",
+    "LandLine":"9247292546",
+    "Mobile":9490401526,
+    "Email":"",
+    "Native":"Akulamannadu, Guduru",
+    "Address":"Flat no. S-102, Devi Homes, Hafizpet, Hyderabad - 500049",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":210,
+    "Name":"Brundavanam VSSN Prasad",
+    "Father":"",
+    "Gotram":"Aatreyasa",
+    "LandLine":"",
+    "Mobile":8985022007,
+    "Email":"",
+    "Native":"",
+    "Address":"SF2, Venkata Sai Villa, Road no. 5, MJ Colony, Moulali, Hyderabad",
+    "Professsion":"All India Radio",
+    "UserImage":""
+    }
+    ,{
+    "Sno":211,
+    "Name":"R B Sesha Sai Rama Charyulu",
+    "Father":"",
+    "Gotram":"",
+    "LandLine":"",
+    "Mobile":0,
+    "Email":"",
+    "Native":"",
+    "Address":"Plot no. 18, Flat no. 2, Laxmi Appartments, Malla Reddy Nagar, Lothukunta, Secunderabad - 500015",
+    "Professsion":"",
+    "UserImage":""
+    }
+    ,{
+    "Sno":212,
+    "Name":"R B PardhSarathi Acharyulu",
+    "Father":"",
+    "Gotram":"",
+    "LandLine":"",
+    "Mobile":9291351649,
+    "Email":"",
+    "Native":"",
+    "Address":"Plot no. 18, Flat no. 2, Laxmi Appartments, Malla Reddy Nagar, Lothukunta, Secunderabad - 500015",
     "Professsion":"",
     "UserImage":""
     }

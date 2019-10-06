@@ -12,8 +12,28 @@
                         Maha Mandali Working Comittee
                     </h3>
                     <p class="p__mod">
-                        Vaikhanasa Maha Mandali elects its governing body by elections and the elected body will be handling their roles and responsibilities for an tenure of 2 years.                            
+                        Vaikhanasa Maha Mandali elects its governing body by elections and the elected body will be handling their roles and responsibilities.                            
                     </p>
+                    <h4 class="ttu">
+                        Current Working Comittee
+                    </h4>
+                    <br/>
+                    
+                    <table id="wcGrid01" class="table table-bordered table-condensed table-hover table-striped">
+                      <tr>
+                          <th></th>
+                          <th>NAME</th>
+                          <th>POSITION</th>
+                          <th>PHONE</th>
+                      </tr>
+                      <tr *ngFor="let wcm of wcMembers02">
+                        <th><img class='contactImage' src={{wcm.IMAGE}}/></th>
+                        <th>{{wcm.NAME}}</th>
+                        <th>{{wcm.POSITION}}</th>
+                        <th>{{wcm.PHONE}}</th>
+                      </tr>
+                    </table>
+                    <br/><br/>
                     <h4 class="ttu">
                         Current Working Comittee for 2014-2016
                     </h4>
@@ -26,13 +46,13 @@
                           <th>POSITION</th>
                           <th>PHONE</th>
                       </tr>
-                      <tr *ngFor="let wcm of wcMembers">
+                      <tr *ngFor="let wcm of wcMembers01">
                         <th><img class='contactImage' src={{wcm.IMAGE}}/></th>
                         <th>{{wcm.NAME}}</th>
                         <th>{{wcm.POSITION}}</th>
                         <th>{{wcm.PHONE}}</th>
                       </tr>
-                  </table>
+                    </table>  
 
                 </div>                    
             </div>

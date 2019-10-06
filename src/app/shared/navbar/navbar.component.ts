@@ -70,14 +70,15 @@ export class NavbarComponent implements OnInit {
     };
 
     getTitle() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        titlee = titlee.split('/').pop();
-        for (var item = 0; item < this.listTitles.length; item++) {
-            if (this.listTitles[item].path === titlee) {
-                return this.listTitles[item].title;
-            }
-        }
-        return 'Dashboard';
+        // var titlee = this.location.prepareExternalUrl(this.location.path());
+        // titlee = titlee.split('/').pop();
+        // for (var item = 0; item < this.listTitles.length; item++) {
+        //     if (this.listTitles[item].path === titlee) {
+        //         return this.listTitles[item].title;
+        //     }
+        // }
+        //return 'Dashboard';
+        return 'MANA VAIKHANASAM';
     }
 
     logOut() {

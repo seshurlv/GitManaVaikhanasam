@@ -13,7 +13,8 @@ export class DocumentsComponent implements OnInit {
   ];
 
   downloadOthersItemList = [
-    {"SNO": 1, "NAME": "Vaikhanasa Pooja Vidhanam", "FILEURL":  "assets/docs/PoojaVidhanam/Kalyaano_pdf_1.pdf", "IMGURL": "assets\\img\\common\\pdf_download.jpg"}
+    {"SNO": 1, "NAME": "Vaikhanasa Pooja Vidhanam", "FILEURL":  "assets/docs/PoojaVidhanam_Kalyaano_pdf_1.pdf", "IMGURL": "assets\\img\\common\\pdf_download.jpg"},
+    {"SNO": 2, "NAME": "Vaikhanasalu Ante Evaru By Rompicherla Yogananda Acharyulu", "FILEURL":  "assets/docs/Vaikhanasulu_ante_evaru.pdf", "IMGURL": "assets\\img\\common\\pdf_download.jpg"}
   ];
 
   constructor() { }

@@ -191,14 +191,15 @@ th{
     width: 15%
 }
 .navbar-center {
-    width: 75%;
+    width: 90%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 4px;
     color: #ffffff;
 }
 .navbar {
     background-color: #D68F3C;
+    height: 65px;
 }
 
 .ngx-pagination {
@@ -211,4 +212,40 @@ td {
     text-transform: none;
     font-weight: normal;
     line-height: 20px;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.imageCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.headerStyle{
+    color: white;
+    font-size: 25px !important;
+}
+
+time{
+    font-size: 35px;
+    color: lightskyblue;
+}
+
+.navbar-brand:hover{
+    color:#ffff00;
+    background-color:transparent
+}
+
+li>a>p:hover{
+    color:#ffff00;    
 }

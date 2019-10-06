@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Contact } from '../services/contact.php';
 
 @Component({
   selector: 'app-contact',

@@ -56,7 +56,8 @@ export const ContactRoutes: RouteInfo[] = [
 
 @Component({
     selector: 'app-sidebar',
-    templateUrl: './sidebar.component.html'
+    templateUrl: './sidebar.component.html',
+    styleUrls: ['../app.component.css']
 })
 export class SidebarComponent implements OnInit {
 

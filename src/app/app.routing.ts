@@ -5,16 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { SvmmComponent } from './svmm/svmm.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
+//import { LoginComponent } from './login/login.component';
 import { AppComponent } from './app.component'
-import { UsersListComponent } from './users-list/users-list.component'
-import { InspectionRegistrationComponent } from './inspection-registration/inspection-registration.component'
-import { SchedulerComponent } from './scheduler/scheduler.component';
-import { ObservationsComponent } from './observations/observations.component';
-import { InspectorAssignmentsComponent } from './inspector-assignments/inspector-assignments.component';
-import { GrowerRegistrationsComponent } from './grower-registrations/grower-registrations.component'
-import { LocationsComponent } from './locations/locations.component';
 import { WorkingCommitteComponent } from './working-committe/working-committe.component';
 import { HydAshramamComponent } from './hyd-ashramam/hyd-ashramam.component';
 import { HydAshramamDonorsComponent } from './hyd-ashramam-donors/hyd-ashramam-donors.component';
@@ -32,19 +24,9 @@ import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: 'country', component: LocationsComponent },
-  { path: 'state', component: LocationsComponent },
-  { path: 'district', component: LocationsComponent },
   { path: 'dashboard', component: HomeComponent },  
-  { path: '', redirectTo: 'Login', pathMatch: 'full' },
-  { path: 'register', component: RegisterComponent },
-  { path: 'userslist', component: UsersListComponent },
-  { path: 'inspectionReg', component: RegisterComponent },
-  { path: 'Scheduler', component: SchedulerComponent },
-  { path: 'observations', component: ObservationsComponent },
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
   { path: 'app', component: AppComponent },
-  { path: 'assignments', component: InspectorAssignmentsComponent },
-  { path: 'registrations', component: GrowerRegistrationsComponent },
   { path: 'svmm', component: SvmmComponent },
   { path: 'workingCommitte', component: WorkingCommitteComponent },
   { path: 'hydAshramam', component: HydAshramamComponent },
