@@ -242,10 +242,37 @@ time{
 }
 
 .navbar-brand:hover{
-    color:#ffff00;
+    color:#204D74;
     background-color:transparent
 }
 
 li>a>p:hover{
-    color:#ffff00;    
+    color:#204D74;    
+}
+
+.myHeader{
+    height: 60px;
+    background-color: #ECA54F;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;  
+    text-align: center;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.nav-image-padding-left{
+    padding-left: 30%;
+}
+
+.nav-title-padding-left{
+    padding-left: 1%;
+}
+
+.nav-language-padding-left{
+    padding-left: 25%;
+}
+
+.top80{
+    top: 60px;
 }
