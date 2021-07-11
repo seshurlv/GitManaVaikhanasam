@@ -431,15 +431,15 @@ input:focus {
     background: -ms-linear-gradient(top, #87CB16 0%, #6dc030 100%);
     background: linear-gradient(to bottom, #87CB16 0%, #6dc030 100%);
     background-size: 150% 150%; }
-  .sidebar[data-color="orange"]:after,
-  .bootstrap-navbar[data-color="orange"]:after {
-    background: #FFA534;
-    background: -moz-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFA534), color-stop(100%, #ff5221));
-    background: -webkit-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-    background: -o-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-    background: -ms-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-    background: linear-gradient(to bottom, #FFA534 0%, #ff5221 100%);
+  .sidebar[data-color="red"]:after,
+  .bootstrap-navbar[data-color="red"]:after {
+    background: #CE0707;
+    background: -moz-linear-gradient(top, #CE0707 0%, #CE0707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #CE0707), color-stop(100%, #CE0707));
+    background: -webkit-linear-gradient(top, #CE0707 0%, #CE0707 100%);
+    background: -o-linear-gradient(top, #CE0707 0%, #CE0707 100%);
+    background: -ms-linear-gradient(top, #CE0707 0%, #CE0707 100%);
+    background: linear-gradient(to bottom, #CE0707 0%, #CE0707 100%);
     background-size: 150% 150%; }
   .sidebar[data-color="red"]:after,
   .bootstrap-navbar[data-color="red"]:after {
