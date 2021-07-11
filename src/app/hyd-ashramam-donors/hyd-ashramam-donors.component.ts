@@ -2064,4 +2064,205 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ];
+
+    itemsList = [
+      {
+      "SNO":1,
+      "TITLE":"Shri.",
+      "SURNAME":"Ganjam",
+      "NAME":"Ashok Babu",
+      "PLACE":"DeendayalNagar",
+      "ITEM":"150 - Drinking Steel Glasses, 75 - Steel Coffee Glasses",
+      "IMG":"assets/img/ashramam/glasses.jpg"
+      }
+      ,{
+      "SNO":2,
+      "TITLE":"Shri.",
+      "SURNAME":"Deevi",
+      "NAME":"Madhusudhan Prasad",
+      "PLACE":"Nizampet",
+      "ITEM":"150 - Steel Lunch Plates, 4 - Steel Dishes, 3 - Steel Buckets",
+      "IMG":"assets/img/ashramam/platesanddishes.jpg"
+      }
+      ,{
+      "SNO":3,
+      "TITLE":"Shri.",
+      "SURNAME":"Deevi",
+      "NAME":"Yogananda Narasimha Deekshitulu",
+      "PLACE":"GayatriNagar",
+      "ITEM":"9 - Aluminium Big Vessels with Covering Plates",
+      "IMG":"assets/img/ashramam/Vessels.jpg"
+      }
+      ,{
+      "SNO":4,
+      "TITLE":"Shri.",
+      "SURNAME":"Deevi",
+      "NAME":"Srinivasa Murthy",
+      "PLACE":"GayatriNagar",
+      "ITEM":"Big Stove (2 Burner)",
+      "IMG":"assets/img/ashramam/stove.jpg"
+      }
+      ,{
+      "SNO":5,
+      "TITLE":"Shri.",
+      "SURNAME":"Agnihotram",
+      "NAME":"Ramanand",
+      "PLACE":"Nalagandla",
+      "ITEM":"10 - Serving Buckets, 10 - Water Jugs",
+      "IMG":"assets/img/ashramam/bucketsandjugs.jpg"
+      }
+      ,{
+      "SNO":6,
+      "TITLE":"Shri.",
+      "SURNAME":"Srinivasula",
+      "NAME":"Ramachandra  charyulu",
+      "PLACE":"Gayatrinagar, Moulali",
+      "ITEM":"3 - Stainless Steel Dining Table",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":7,
+      "TITLE":"Shri.",
+      "SURNAME":"Deevi",
+      "NAME":"S L Narasinhacharyulu",
+      "PLACE":"Alwal",
+      "ITEM":"3 - Stainless Steel Dining Table",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":8,
+      "TITLE":"Shri.",
+      "SURNAME":"Vadapalli",
+      "NAME":"SridharaCharyulu",
+      "PLACE":"Kondapur, Ghatkesar",
+      "ITEM":"3 - Stainless Steel Dining Table",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":9,
+      "TITLE":"Shri.",
+      "SURNAME":"Sudarshanam",
+      "NAME":"SatyanarayanaCharyulu",
+      "PLACE":"Vijayapuri Colony",
+      "ITEM":"3 - Stainless Steel Dining Table",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":10,
+      "TITLE":"Shri.",
+      "SURNAME":"Muttevi",
+      "NAME":"Ravikumar NarasimhaCharyulu",
+      "PLACE":"HMT Nagar",
+      "ITEM":"4 - Aluminium Big Cooking Vessel with lid",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":11,
+      "TITLE":"Shri.",
+      "SURNAME":"Vadapalli",
+      "NAME":"Sudhakar",
+      "PLACE":"HMT Nagar",
+      "ITEM":"3 - Aluminium Big Cooking Vessel with lid",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":12,
+      "TITLE":"Shri.",
+      "SURNAME":"Vedantam",
+      "NAME":"Raghava Deekshitulu",
+      "PLACE":"Boduppal",
+      "ITEM":"15 - Stainless Steel Basins",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":13,
+      "TITLE":"Shri.",
+      "SURNAME":"Pedapudi",
+      "NAME":"KrishnamaCharyulu",
+      "PLACE":"Sarada Nagar",
+      "ITEM":"1 - Steel Almara, 1 - Aluminium Vessel with lid",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":14,
+      "TITLE":"Shri.",
+      "SURNAME":"Deevi",
+      "NAME":"Surendra Bhishek",
+      "PLACE":"Vanasthalipuram",
+      "ITEM":"1 - Computer, 1 - Computer Table",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":15,
+      "TITLE":"Shri.",
+      "SURNAME":"R",
+      "NAME":"Parthasarathi",
+      "PLACE":"",
+      "ITEM":"1 - Aluminium Big Cooking Vessel with lid",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":16,
+      "TITLE":"Shri.",
+      "SURNAME":"B",
+      "NAME":"Vedadri",
+      "PLACE":"",
+      "ITEM":"1 - Aluminium Big Cooking Vessel with lid",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":17,
+      "TITLE":"Shri.",
+      "SURNAME":"K",
+      "NAME":"Prabhakaracharyulu & Friends",
+      "PLACE":"",
+      "ITEM":"1 - Mike Set",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":18,
+      "TITLE":"Shri.",
+      "SURNAME":"Agnihotram",
+      "NAME":"Kishore",
+      "PLACE":"",
+      "ITEM":"1 - Tea Flask",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":19,
+      "TITLE":"Shri.",
+      "SURNAME":"Deevi",
+      "NAME":"Sarangapani Iyengar",
+      "PLACE":"Bhavani Nagar",
+      "ITEM":"6 - Chairs",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":20,
+      "TITLE":"Shri.",
+      "SURNAME":"P",
+      "NAME":"Gopala Krishna",
+      "PLACE":"",
+      "ITEM":"6 - Chairs",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":21,
+      "TITLE":"",
+      "SURNAME":"",
+      "NAME":"Nirmala (Bharat Gas)",
+      "PLACE":"",
+      "ITEM":"1 - Gas Cylinder",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ,{
+      "SNO":22,
+      "TITLE":"",
+      "SURNAME":"",
+      "NAME":"Ashramam existing old items",
+      "PLACE":"",
+      "ITEM":"9 - Steel Buckets, 2 - Chairs, 2 - Dustbin Drums, 99 - Glasses, 2 - Steel Water Jugs, 1 - Strainer Bowl, 2 - Tables, 2 - Water Drums, 4 - Water Cans, 1 - Aluminium Vessel with lid, 14 - Garitelu",
+      "IMG":"assets/img/ashramam/noimage.jpg"
+      }
+      ];
 }
