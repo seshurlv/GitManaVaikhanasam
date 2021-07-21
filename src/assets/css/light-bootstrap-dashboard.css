@@ -220,7 +220,8 @@ input:focus {
     overflow: auto;
     width: 260px;
     z-index: 4;
-    padding-bottom: 75px; }
+    padding-bottom: 75px; 
+    top: 60px;}
     .sidebar .sidebar-wrapper .dropdown .dropdown-backdrop,
     .bootstrap-navbar .sidebar-wrapper .dropdown .dropdown-backdrop {
       display: none !important; }
