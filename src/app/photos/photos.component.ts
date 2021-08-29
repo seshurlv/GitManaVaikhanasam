@@ -21,7 +21,8 @@ export class PhotosComponent implements OnInit {
   galleryImages10: NgxGalleryImage[];
   galleryImages11: NgxGalleryImage[];
   galleryImages12: NgxGalleryImage[];
-  galleryImages13: NgxGalleryImage[];  
+  galleryImages13: NgxGalleryImage[];
+  galleryImages14: NgxGalleryImage[];  
 
 
   constructor() { }
@@ -208,6 +209,18 @@ export class PhotosComponent implements OnInit {
      images01.push(img);     
     }
     this.galleryImages13 = images01;    
+	
+	  images01 = new Array<NgxGalleryImage>();
+    for(let i = 1; i < 12; i++){      
+      var imageName = i < 10 ? '0'+i : i;
+      let img = {
+        small: 'assets/img/Gallery/VYF_SP_2021/'+imageName+'.jpeg',
+        medium: 'assets/img/Gallery/VYF_SP_2021/'+imageName+'.jpeg',
+        big: 'assets/img/Gallery/VYF_SP_2021/'+imageName+'.jpeg'
+     };
+     images01.push(img);     
+    }
+    this.galleryImages14 = images01;
   } 
 
 }
