@@ -1,4 +1,7 @@
 {
+  "angularCompilerOptions": {
+    "disableTypeScriptVersionCheck": true
+  },
   "compilerOptions": {
     "baseUrl": "",
     "declaration": false,
