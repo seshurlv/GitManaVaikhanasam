@@ -32,8 +32,7 @@ export class HydAshramamDonorsComponent implements OnInit {
  };
 
 
-  donorsList = [
-    {
+  donorsList = [{
     "SNO":"1",
     "TITLE":"Shri. Dr.",
     "SURNAME":"Deevi",
@@ -76,6 +75,16 @@ export class HydAshramamDonorsComponent implements OnInit {
     ,{
     "SNO":"5",
     "TITLE":"Shri.",
+    "SURNAME":"Deevi",
+    "NAME":"Kumara Lakshmana Acharyulu & Bros",
+    "PLACE":"Uppal",
+    "AMOUNT":"₹ 100,132",
+    "DATE":"08/01/2023",
+    "RECEIPT":"290, 291"
+    }
+    ,{
+    "SNO":"6",
+    "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Ananthacharyulu",
     "PLACE":"BHEL",
@@ -84,7 +93,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"6",
+    "SNO":"7",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"Bhava Prasad",
@@ -94,7 +103,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"7",
+    "SNO":"8",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Anantha Srinivasacharyulu",
@@ -104,7 +113,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"8",
+    "SNO":"9",
     "TITLE":"Shri.",
     "SURNAME":"Paramkusam",
     "NAME":"Seetharaamacharyulu",
@@ -114,7 +123,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"9",
+    "SNO":"10",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"S.Venkatacharyulu",
@@ -124,7 +133,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"10",
+    "SNO":"11",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Raghava Deekshitulu & Sons",
@@ -134,7 +143,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"11",
+    "SNO":"12",
     "TITLE":"Shri. Dr.",
     "SURNAME":"Rompicherla",
     "NAME":"Srinivasa Deekshithulu",
@@ -144,7 +153,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"12",
+    "SNO":"13",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Sanath Kumar",
@@ -154,7 +163,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"13",
+    "SNO":"14",
     "TITLE":"Shri Dr.",
     "SURNAME":"Ganjam",
     "NAME":"Krishna Prasad in Memory of  his Father and Mother ",
@@ -164,7 +173,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"14",
+    "SNO":"15",
     "TITLE":"Shri Dr.",
     "SURNAME":"Narayanam",
     "NAME":"KesavaMurthy",
@@ -172,16 +181,6 @@ export class HydAshramamDonorsComponent implements OnInit {
     "AMOUNT":"₹ 60,000",
     "DATE":"2/12/2018",
     "RECEIPT":"2/42"
-    }
-    ,{
-    "SNO":"15",
-    "TITLE":"Shri.",
-    "SURNAME":"Deevi",
-    "NAME":"Acharya Sathrughna Kumar & Bros",
-    "PLACE":"Gayatri Nagar ",
-    "AMOUNT":"₹ 50,116",
-    "DATE":"",
-    "RECEIPT":""
     }
     ,{
     "SNO":"16",
@@ -316,6 +315,16 @@ export class HydAshramamDonorsComponent implements OnInit {
     ,{
     "SNO":"29",
     "TITLE":"Shri.",
+    "SURNAME":"Khandavalli",
+    "NAME":"Venkata Ramana Murthy",
+    "PLACE":"Gajularamaaram",
+    "AMOUNT":"₹ 41,116",
+    "DATE":"11/17/2019",
+    "RECEIPT":"12/282"
+    }
+    ,{
+    "SNO":"30",
+    "TITLE":"Shri.",
     "SURNAME":"Devayajanam",
     "NAME":"Murali Gopala Krishna Murthy",
     "PLACE":"BHEL",
@@ -324,7 +333,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/38"
     }
     ,{
-    "SNO":"30",
+    "SNO":"31",
+    "TITLE":"Shri.",
+    "SURNAME":"Deevi",
+    "NAME":"VenkataLakshmi",
+    "PLACE":"Borabanda",
+    "AMOUNT":"₹ 30,116",
+    "DATE":"11/17/2019",
+    "RECEIPT":"12/277, 12/278"
+    }
+    ,{
+    "SNO":"32",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Ravi Chandra",
@@ -334,7 +353,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"31",
+    "SNO":"33",
     "TITLE":"Shri. Dr.",
     "SURNAME":"Deevi",
     "NAME":"Krishnaswami Iyengar",
@@ -344,7 +363,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"32",
+    "SNO":"34",
     "TITLE":"Shri.",
     "SURNAME":"Parasaram",
     "NAME":"V Ranganadha Iyyenger & Brothers",
@@ -354,7 +373,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"33",
+    "SNO":"35",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"Sravan Kumar",
@@ -364,7 +383,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"34",
+    "SNO":"36",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"RadhaKrishna",
@@ -374,7 +393,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"35",
+    "SNO":"37",
     "TITLE":"Shri.",
     "SURNAME":"Rompicherla",
     "NAME":"Lakshmi Narasimha Charyulu",
@@ -384,7 +403,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"36",
+    "SNO":"38",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Gopala Charyulu and son inlaws",
@@ -394,7 +413,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/33"
     }
     ,{
-    "SNO":"37",
+    "SNO":"39",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"R K Chakrapani",
@@ -404,7 +423,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"38",
+    "SNO":"40",
     "TITLE":"Shri.",
     "SURNAME":"Paramkusam",
     "NAME":"Ranganadhacharyulu",
@@ -414,7 +433,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"39",
+    "SNO":"41",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"N.Rangaraavu",
@@ -424,7 +443,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"40",
+    "SNO":"42",
     "TITLE":"Shri.",
     "SURNAME":"Tamirisa",
     "NAME":"Panakalacharyulu",
@@ -434,7 +453,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"41",
+    "SNO":"43",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Sai Srinivas",
@@ -444,7 +463,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"42",
+    "SNO":"44",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"S S Hariprasad ",
@@ -454,7 +473,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"43",
+    "SNO":"45",
     "TITLE":"Shri.",
     "SURNAME":"Khandavalli",
     "NAME":"Venkata SatyaPrabhakaram",
@@ -464,7 +483,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/41"
     }
     ,{
-    "SNO":"44",
+    "SNO":"46",
     "TITLE":"Shri.",
     "SURNAME":"Tamirisa",
     "NAME":"Narasimha Rao",
@@ -474,7 +493,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/39"
     }
     ,{
-    "SNO":"45",
+    "SNO":"47",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"S V L NarasimhaCharyulu",
@@ -484,7 +503,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"46",
+    "SNO":"48",
     "TITLE":"Shri.",
     "SURNAME":"Gudipudi",
     "NAME":"Seetharamacharyulu",
@@ -494,7 +513,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"47",
+    "SNO":"49",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"HarinarayanaCharyulu",
@@ -504,17 +523,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"8/198 ,2/46"
     }
     ,{
-    "SNO":"48",
-    "TITLE":"Shri.",
-    "SURNAME":"Khandavalli",
-    "NAME":"Venkata Ramana Murthy",
-    "PLACE":"Gajularamaaram",
-    "AMOUNT":"₹ 16,116",
-    "DATE":"",
-    "RECEIPT":""
-    }
-    ,{
-    "SNO":"49",
+    "SNO":"50",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Sreerama Chakravarty, Lakshmana Kumar and Venugopal",
@@ -524,7 +533,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"50",
+    "SNO":"51",
+    "TITLE":"Shri.",
+    "SURNAME":"Peddinti",
+    "NAME":"GopalaKrishna",
+    "PLACE":"Uppal Depot",
+    "AMOUNT":"₹ 15,000",
+    "DATE":"20/11/2022",
+    "RECEIPT":"289"
+    }
+    ,{
+    "SNO":"52",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Krishna Kishore",
@@ -534,7 +553,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"51",
+    "SNO":"53",
+    "TITLE":"Shri.",
+    "SURNAME":"Tamirisa",
+    "NAME":"Vikhanasacharyulu",
+    "PLACE":"Bhavani Nagar(Nacharam)",
+    "AMOUNT":"₹ 10,500",
+    "DATE":"11/17/2019",
+    "RECEIPT":"12/280"
+    }
+    ,{
+    "SNO":"54",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"RamaKrishna",
@@ -544,7 +573,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"52",
+    "SNO":"55",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Srinivas ",
@@ -554,7 +583,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"53",
+    "SNO":"56",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"AppalaCharyulu",
@@ -564,7 +593,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"54",
+    "SNO":"57",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Radha Krishnamacharyulu",
@@ -574,7 +603,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"55",
+    "SNO":"58",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Venkataramana",
@@ -584,7 +613,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"56",
+    "SNO":"59",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Ramakrishna",
@@ -594,7 +623,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"57",
+    "SNO":"60",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"S.Prasada Charyulu & Bros",
@@ -604,7 +633,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"58",
+    "SNO":"61",
     "TITLE":"Shri.",
     "SURNAME":"Nalluri",
     "NAME":"Dasaradha Srinivasa Deekshithulu",
@@ -614,7 +643,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"59",
+    "SNO":"62",
     "TITLE":"Shri.",
     "SURNAME":"Srinivasula",
     "NAME":"Subhadhracharyulu",
@@ -624,7 +653,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"60",
+    "SNO":"63",
     "TITLE":"Smt.",
     "SURNAME":"Deevi",
     "NAME":"Rajyalakshmi",
@@ -634,7 +663,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"61",
+    "SNO":"64",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Hari Srinivasa Deekshitulu",
@@ -644,7 +673,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"62",
+    "SNO":"65",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"V V Ramakrishnama Charyulu",
@@ -654,7 +683,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"63",
+    "SNO":"66",
     "TITLE":"Shri.",
     "SURNAME":"Muttevi",
     "NAME":"LeelaKrishna",
@@ -664,17 +693,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"64",
+    "SNO":"67",
     "TITLE":"Shri.",
-    "SURNAME":"Deevi",
-    "NAME":"VenkataLakshmi",
-    "PLACE":"Borabanda",
+    "SURNAME":"Peddinti",
+    "NAME":"Venkata Krishma Murty",
+    "PLACE":"",
     "AMOUNT":"₹ 10,116",
-    "DATE":"",
-    "RECEIPT":""
+    "DATE":"11/17/2019",
+    "RECEIPT":"12/276"
     }
     ,{
-    "SNO":"65",
+    "SNO":"68",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Rambabu",
@@ -684,7 +713,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/47"
     }
     ,{
-    "SNO":"66",
+    "SNO":"69",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Venu Madhav",
@@ -694,7 +723,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"67",
+    "SNO":"70",
     "TITLE":"Shri.",
     "SURNAME":"Govardhanam",
     "NAME":"Pattabhirama charyulu ",
@@ -704,7 +733,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"68",
+    "SNO":"71",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Tushara & Havisha in Memory of their Father late Deevi Lakshmi Narasimha chrayulu",
@@ -714,7 +743,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"69",
+    "SNO":"72",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Bhaskara Murty ",
@@ -724,7 +753,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"70",
+    "SNO":"73",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"S.V.Rangacharyulu",
@@ -734,7 +763,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"71",
+    "SNO":"74",
     "TITLE":"Shri.",
     "SURNAME":"Parasaram",
     "NAME":"AlahaSingaracharyulu",
@@ -744,17 +773,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"72",
-    "TITLE":"Shri.",
-    "SURNAME":"Tamirisa",
-    "NAME":"Vikhanasacharyulu",
-    "PLACE":"Bhavani Nagar(Nacharam)",
-    "AMOUNT":"₹ 10,000",
-    "DATE":"",
-    "RECEIPT":""
-    }
-    ,{
-    "SNO":"73",
+    "SNO":"75",
     "TITLE":"Shri.",
     "SURNAME":"Srinivasula",
     "NAME":"Srinivasula Deekshitulu",
@@ -764,7 +783,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"74",
+    "SNO":"76",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"S Bhishak",
@@ -774,7 +793,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"75",
+    "SNO":"77",
     "TITLE":"Smt.",
     "SURNAME":"Vedantam",
     "NAME":"Sita",
@@ -784,7 +803,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"76",
+    "SNO":"78",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Srinivas ",
@@ -794,7 +813,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"77",
+    "SNO":"79",
     "TITLE":"Shri.",
     "SURNAME":"Attili",
     "NAME":"Gopala krishnamacharyulu",
@@ -804,7 +823,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"78",
+    "SNO":"80",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Rajagopal",
@@ -814,7 +833,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"79",
+    "SNO":"81",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Tandava Krishna Murthy",
@@ -824,7 +843,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"80",
+    "SNO":"82",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Srinivasa Murty",
@@ -834,7 +853,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"81",
+    "SNO":"83",
     "TITLE":"Smt.",
     "SURNAME":"Deevi",
     "NAME":"Lakshmi Kantam",
@@ -844,7 +863,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"82",
+    "SNO":"84",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"A V RaghavaCharyulu",
@@ -854,7 +873,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"83",
+    "SNO":"85",
     "TITLE":"Smt.",
     "SURNAME":"Vedantam",
     "NAME":"Devaki Devi & SreenivasaMurty",
@@ -864,7 +883,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"84",
+    "SNO":"86",
     "TITLE":"Shri.",
     "SURNAME":"Ganjam",
     "NAME":"G A SeshaCharyulu",
@@ -874,7 +893,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"85",
+    "SNO":"87",
     "TITLE":"Shri.",
     "SURNAME":"Brindavanam",
     "NAME":"V N A Vedadri ",
@@ -884,7 +903,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"86",
+    "SNO":"88",
     "TITLE":"Shri.",
     "SURNAME":"Rompicherla",
     "NAME":"V BharataCharyulu",
@@ -894,7 +913,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"87",
+    "SNO":"89",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Lakshmi NarasimhaCharyulu ",
@@ -904,7 +923,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"88",
+    "SNO":"90",
     "TITLE":"Shri.",
     "SURNAME":"Tamirisa",
     "NAME":"V L N Acharyulu ",
@@ -914,17 +933,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"89",
-    "TITLE":"Shri.",
-    "SURNAME":"Peddinti",
-    "NAME":"GopalaKrishna",
-    "PLACE":"Uppal Depot",
-    "AMOUNT":"₹ 10,000",
-    "DATE":"",
-    "RECEIPT":""
-    }
-    ,{
-    "SNO":"90",
+    "SNO":"91",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"ChandraMohan Srinivas ",
@@ -934,7 +943,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"91",
+    "SNO":"92",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Krishna Prasad",
@@ -944,7 +953,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"92",
+    "SNO":"93",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"MadhavaCharyulu ",
@@ -954,7 +963,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"93",
+    "SNO":"94",
     "TITLE":"Shri.",
     "SURNAME":"Rompicherla",
     "NAME":"Muralikrishna",
@@ -964,7 +973,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"94",
+    "SNO":"95",
     "TITLE":"Shri.",
     "SURNAME":"Brindavanam",
     "NAME":"Venkata Venugopalacharyulu",
@@ -974,7 +983,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"95",
+    "SNO":"96",
     "TITLE":"Shri.",
     "SURNAME":"Kallagunta",
     "NAME":"V Raghurama Murty",
@@ -984,7 +993,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"96",
+    "SNO":"97",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Satyanarayana Kumar",
@@ -994,7 +1003,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"97",
+    "SNO":"98",
     "TITLE":"Shri.",
     "SURNAME":"Govardhanam",
     "NAME":"Narasimha Murty",
@@ -1004,7 +1013,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"98",
+    "SNO":"99",
     "TITLE":"Shri.",
     "SURNAME":"Nalluri",
     "NAME":"Lakshmi Narayana BhattaCharyulu",
@@ -1014,7 +1023,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"99",
+    "SNO":"100",
     "TITLE":"Shri.",
     "SURNAME":"Parasaram",
     "NAME":"Seshasai",
@@ -1024,7 +1033,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"100",
+    "SNO":"101",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Sreerama Chandra Murty",
@@ -1034,7 +1043,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"101",
+    "SNO":"102",
     "TITLE":"Shri.",
     "SURNAME":"Khandavalli",
     "NAME":"PrabhakaraCharyulu",
@@ -1044,7 +1053,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"102",
+    "SNO":"103",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"R Krishnama Charyulu",
@@ -1054,7 +1063,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"103",
+    "SNO":"104",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Krishna Prasad",
@@ -1064,7 +1073,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"104",
+    "SNO":"105",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Narayana",
@@ -1074,7 +1083,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"105",
+    "SNO":"106",
     "TITLE":"Shri.",
     "SURNAME":"Nalluri",
     "NAME":"Madhusudhan ",
@@ -1084,7 +1093,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"106",
+    "SNO":"107",
     "TITLE":"Shri.",
     "SURNAME":"Nalluri",
     "NAME":"Vikhanasa BattaCharyulu",
@@ -1094,7 +1103,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"107",
+    "SNO":"108",
     "TITLE":"Shri.",
     "SURNAME":"Rompicherla",
     "NAME":"Raghavacharyulu  In memory of Late R.VidyaSagar ",
@@ -1104,7 +1113,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"108",
+    "SNO":"109",
     "TITLE":"Smt.",
     "SURNAME":"Vadapalli",
     "NAME":"Kanakam (on the occation of his son's thread cermony)",
@@ -1114,7 +1123,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"109",
+    "SNO":"110",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Srinivasa Krishna",
@@ -1124,7 +1133,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"110",
+    "SNO":"111",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"D T K Chakravarthi",
@@ -1134,7 +1143,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"111",
+    "SNO":"112",
     "TITLE":"Shri.",
     "SURNAME":"Govardhanam",
     "NAME":"Anantharam",
@@ -1144,7 +1153,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"112",
+    "SNO":"113",
     "TITLE":"Shri.",
     "SURNAME":"Tamirisa",
     "NAME":"Anantha Charyulu",
@@ -1154,7 +1163,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"113",
+    "SNO":"114",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Sobhanadri Lakshmi Narasimha Charyulu",
@@ -1164,7 +1173,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"114",
+    "SNO":"115",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Venkata Ramana",
@@ -1174,7 +1183,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"115",
+    "SNO":"116",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Harsha Ayyengar",
@@ -1184,7 +1193,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"116",
+    "SNO":"117",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Satish Kumar",
@@ -1194,7 +1203,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/44"
     }
     ,{
-    "SNO":"117",
+    "SNO":"118",
+    "TITLE":"Shri.",
+    "SURNAME":"Agnihotram ",
+    "NAME":" V S R K Acharyulu in memory of his father Agnihotram PeddaSeshacharyulu",
+    "PLACE":"Ghatakesar",
+    "AMOUNT":"₹ 10,000",
+    "DATE":"11/17/2019",
+    "RECEIPT":"12/279"
+    }
+    ,{
+    "SNO":"119",
     "TITLE":"Shri.",
     "SURNAME":"Parankusam",
     "NAME":"Jwala NarasimhaCharyulu",
@@ -1204,7 +1223,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"118",
+    "SNO":"120",
     "TITLE":"Shri.",
     "SURNAME":"Khandavalli",
     "NAME":"V R S N Acharyulu",
@@ -1214,7 +1233,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"119",
+    "SNO":"121",
     "TITLE":"Smt.",
     "SURNAME":"Devayajanam",
     "NAME":"Lalitha Kumari",
@@ -1224,7 +1243,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"120",
+    "SNO":"122",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Giri Prasad",
@@ -1234,7 +1253,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/32"
     }
     ,{
-    "SNO":"121",
+    "SNO":"123",
+    "TITLE":"Shri.",
+    "SURNAME":"Deevi",
+    "NAME":"Yogananda Narasimha Deekshithulu",
+    "PLACE":"Jillelaguda",
+    "AMOUNT":"₹ 5,500",
+    "DATE":"11/17/2019",
+    "RECEIPT":"12/281"
+    }
+    ,{
+    "SNO":"124",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Hariprasad",
@@ -1244,7 +1273,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"122",
+    "SNO":"125",
     "TITLE":"Shri.",
     "SURNAME":"Nalluri",
     "NAME":"Narayanacharyulu",
@@ -1254,7 +1283,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"123",
+    "SNO":"126",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"P.V KrishnaMurty",
@@ -1264,7 +1293,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"124",
+    "SNO":"127",
     "TITLE":"Shri.",
     "SURNAME":"Tamirisa",
     "NAME":"V G Jagannath",
@@ -1274,7 +1303,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"125",
+    "SNO":"128",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"Vivekananda",
@@ -1284,7 +1313,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"126",
+    "SNO":"129",
     "TITLE":"Shri.",
     "SURNAME":"D",
     "NAME":"Sreenivasa Charyulu",
@@ -1294,7 +1323,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"127",
+    "SNO":"130",
     "TITLE":"Shri.",
     "SURNAME":"Kallagunta",
     "NAME":"L R Prasad",
@@ -1304,7 +1333,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"128",
+    "SNO":"131",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"R.Ranganadha Charyulu",
@@ -1314,7 +1343,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"129",
+    "SNO":"132",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"S.A.V.SatyanarayanaCharyulu",
@@ -1324,7 +1353,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"130",
+    "SNO":"133",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"RamaKrishna",
@@ -1334,7 +1363,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"131",
+    "SNO":"134",
     "TITLE":"Shri.",
     "SURNAME":"Bhavavarapu",
     "NAME":"SatyaPrasad",
@@ -1344,7 +1373,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"132",
+    "SNO":"135",
     "TITLE":"Shri.",
     "SURNAME":"Meduri",
     "NAME":"Kodanda Rama Deekshitulu",
@@ -1354,7 +1383,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"133",
+    "SNO":"136",
     "TITLE":"Smt.",
     "SURNAME":"",
     "NAME":"A. Satyavathi ",
@@ -1364,7 +1393,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"134",
+    "SNO":"137",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"P.RangaaCharyulu",
@@ -1374,7 +1403,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"135",
+    "SNO":"138",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Sreekanth",
@@ -1384,7 +1413,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"136",
+    "SNO":"139",
     "TITLE":"Smt.",
     "SURNAME":"",
     "NAME":"P. Sai Madhuri ",
@@ -1394,7 +1423,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"137",
+    "SNO":"140",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"R Krishnamacharyulu",
@@ -1404,7 +1433,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"138",
+    "SNO":"141",
     "TITLE":"Shri.",
     "SURNAME":"Pedapudi",
     "NAME":"Venugopala Krishnamacharyulu",
@@ -1414,7 +1443,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"139",
+    "SNO":"142",
     "TITLE":"Shri.",
     "SURNAME":"Srinivasula",
     "NAME":"RamachandraaCharyulu",
@@ -1424,7 +1453,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"140",
+    "SNO":"143",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Srinivasa Ayodhyanadh",
@@ -1434,7 +1463,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"141",
+    "SNO":"144",
     "TITLE":"Smt.",
     "SURNAME":"Vadapalli",
     "NAME":"VijayaLakshmi",
@@ -1444,7 +1473,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"142",
+    "SNO":"145",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Anjaneyulu",
@@ -1454,7 +1483,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"143",
+    "SNO":"146",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"VenkataGopala krishnamacharyulu",
@@ -1464,7 +1493,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"144",
+    "SNO":"147",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"P.V.B SatyanarayanaCharyulu",
@@ -1474,7 +1503,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"145",
+    "SNO":"148",
     "TITLE":"Shri.",
     "SURNAME":"Meduri",
     "NAME":"Murali",
@@ -1484,7 +1513,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"146",
+    "SNO":"149",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Srinivasa Murthy",
@@ -1494,7 +1523,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"147",
+    "SNO":"150",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"V.RamaKrishna & Bros ,(In memory of Late V.Janardhanacharyulu )",
@@ -1504,17 +1533,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"148",
-    "TITLE":"Shri.",
-    "SURNAME":"Deevi",
-    "NAME":"Yogananda Narasimha Deekshithulu",
-    "PLACE":"Jillelaguda",
-    "AMOUNT":"₹ 5,000",
-    "DATE":"",
-    "RECEIPT":""
-    }
-    ,{
-    "SNO":"149",
+    "SNO":"151",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Hanumanthacharyulu",
@@ -1524,7 +1543,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"150",
+    "SNO":"152",
     "TITLE":"Shri.",
     "SURNAME":"Vedantam",
     "NAME":"Ranganadhacharyulu",
@@ -1534,7 +1553,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"151",
+    "SNO":"153",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"S.Ranganadh",
@@ -1544,7 +1563,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"152",
+    "SNO":"154",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"V.Venkata RangaChary",
@@ -1554,7 +1573,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"153",
+    "SNO":"155",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"G.Raghunadh",
@@ -1564,7 +1583,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"154",
+    "SNO":"156",
     "TITLE":"Shri.",
     "SURNAME":"Angara",
     "NAME":"Sairam",
@@ -1574,7 +1593,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"155",
+    "SNO":"157",
     "TITLE":"Shri.",
     "SURNAME":"Sudarsanam",
     "NAME":"GopalaCharyulu",
@@ -1584,7 +1603,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"156",
+    "SNO":"158",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"VenkataCharyulu",
@@ -1594,7 +1613,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"157",
+    "SNO":"159",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"A.V Ramana ",
@@ -1604,7 +1623,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"158",
+    "SNO":"160",
     "TITLE":"Shri.",
     "SURNAME":"Devayajanam",
     "NAME":"Sridhara Chakravarthy",
@@ -1614,17 +1633,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"159",
+    "SNO":"161",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"SrinivasaMurty",
-    "PLACE":"Kharman Ghat",
+    "PLACE":"Meerpet",
     "AMOUNT":"₹ 5,000",
     "DATE":"",
     "RECEIPT":""
     }
     ,{
-    "SNO":"160",
+    "SNO":"162",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Srinivasa Murthy",
@@ -1634,7 +1653,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"161",
+    "SNO":"163",
     "TITLE":"Shri.",
     "SURNAME":"Noori",
     "NAME":"Subhramanya Sastri",
@@ -1644,7 +1663,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"162",
+    "SNO":"164",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Krishna Prasad",
@@ -1654,7 +1673,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"163",
+    "SNO":"165",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"S. Vijaya Sai",
@@ -1664,7 +1683,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"164",
+    "SNO":"166",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"V VaradaCharyulu",
@@ -1674,7 +1693,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"165",
+    "SNO":"167",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Vijaya Saradhi",
@@ -1684,7 +1703,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"166",
+    "SNO":"168",
     "TITLE":"Shri.",
     "SURNAME":"Sribhashyam",
     "NAME":"Sriman narayana",
@@ -1694,7 +1713,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"167",
+    "SNO":"169",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Srinivasulacharyulu  ",
@@ -1704,7 +1723,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"168",
+    "SNO":"170",
     "TITLE":"Shri.",
     "SURNAME":"Narayanam",
     "NAME":"Satya Deva Vara Prasad",
@@ -1714,7 +1733,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"169",
+    "SNO":"171",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Peda SeshaCharyulu",
@@ -1724,17 +1743,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"170",
-    "TITLE":"Shri.",
-    "SURNAME":"Agnihotram ",
-    "NAME":" V S R K Acharyulu in memory of his father Agnihotram PeddaSeshacharyulu",
-    "PLACE":"Ghatakesar",
-    "AMOUNT":"₹ 5,000",
-    "DATE":"",
-    "RECEIPT":""
-    }
-    ,{
-    "SNO":"171",
+    "SNO":"172",
     "TITLE":"Shri.",
     "SURNAME":"Govardhanam",
     "NAME":"Krishnama Charyulu",
@@ -1744,7 +1753,17 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/48"
     }
     ,{
-    "SNO":"172",
+    "SNO":"173",
+    "TITLE":"Shri.",
+    "SURNAME":"Sudarsanam",
+    "NAME":"V Satyanarayana Charyulu",
+    "PLACE":"Bodduppal",
+    "AMOUNT":"₹ 5,000",
+    "DATE":"17/01/2023",
+    "RECEIPT":"292"
+    }
+    ,{
+    "SNO":"174",
     "TITLE":"Shri.",
     "SURNAME":"Vadapalli",
     "NAME":"Buchibabu",
@@ -1754,7 +1773,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"173",
+    "SNO":"175",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"L.Sundarayya",
@@ -1764,7 +1783,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"174",
+    "SNO":"176",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"K.Praveen ",
@@ -1774,7 +1793,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"175",
+    "SNO":"177",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"P.Gopalaswamy",
@@ -1784,7 +1803,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"176",
+    "SNO":"178",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Ananthacharyulu in memory of Bhakaramma",
@@ -1794,7 +1813,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"177",
+    "SNO":"179",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Venkata Hygriva Charyulu",
@@ -1804,7 +1823,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"11/274, 2/45"
     }
     ,{
-    "SNO":"178",
+    "SNO":"180",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"PadmanabhaCharyulu",
@@ -1814,7 +1833,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"179",
+    "SNO":"181",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"UmashankaraCharyulu",
@@ -1824,7 +1843,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"180",
+    "SNO":"182",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"P.Satyanarayana",
@@ -1834,7 +1853,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"181",
+    "SNO":"183",
     "TITLE":"Shri.",
     "SURNAME":"Rompicherla",
     "NAME":"Rama Krishnamacharyulu",
@@ -1844,7 +1863,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"182",
+    "SNO":"184",
     "TITLE":"Shri.",
     "SURNAME":"Revuri",
     "NAME":"GopalaCharyulu",
@@ -1854,7 +1873,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"183",
+    "SNO":"185",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"G.A.P  Prasad",
@@ -1864,7 +1883,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"184",
+    "SNO":"186",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"G.M Sarath Kumar",
@@ -1874,7 +1893,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"185",
+    "SNO":"187",
     "TITLE":"Shri.",
     "SURNAME":"Agnihotram",
     "NAME":"Laxmana Singara Charyulu",
@@ -1884,7 +1903,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"186",
+    "SNO":"188",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"K.Murali Krishna",
@@ -1894,7 +1913,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"187",
+    "SNO":"189",
     "TITLE":"Shri.",
     "SURNAME":"Brindavanam",
     "NAME":"Sri Ramachakravarty",
@@ -1904,7 +1923,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"188",
+    "SNO":"190",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Vijaya Saradhi",
@@ -1914,7 +1933,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"189",
+    "SNO":"191",
     "TITLE":"Shri.",
     "SURNAME":"Khandavalli",
     "NAME":"Mangacharyulu",
@@ -1924,7 +1943,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"190",
+    "SNO":"192",
     "TITLE":"Shri.",
     "SURNAME":"Khandavalli",
     "NAME":"Chaitanya",
@@ -1934,7 +1953,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"191",
+    "SNO":"193",
     "TITLE":"Shri.",
     "SURNAME":"Peddinti",
     "NAME":"Sarath Chandra ",
@@ -1944,7 +1963,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"192",
+    "SNO":"194",
     "TITLE":"Shri.",
     "SURNAME":"Deevi",
     "NAME":"Sridhar",
@@ -1954,7 +1973,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"193",
+    "SNO":"195",
     "TITLE":"Shri.",
     "SURNAME":"Pulipaka",
     "NAME":"MuraliKrishna",
@@ -1964,7 +1983,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"194",
+    "SNO":"196",
     "TITLE":"Shri.",
     "SURNAME":"Vadapalli",
     "NAME":"Vijaya Kiran",
@@ -1974,7 +1993,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"195",
+    "SNO":"197",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"K.Ramesh ",
@@ -1984,7 +2003,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"196",
+    "SNO":"198",
     "TITLE":"Smt. Dr.",
     "SURNAME":"",
     "NAME":"Shakthirai Mitra",
@@ -1994,7 +2013,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"197",
+    "SNO":"199",
     "TITLE":"Smt.",
     "SURNAME":"",
     "NAME":"N.Lalitha",
@@ -2004,7 +2023,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"198",
+    "SNO":"200",
     "TITLE":"Shri.",
     "SURNAME":"Govardhanam",
     "NAME":"Trinadh Ramesh ",
@@ -2014,7 +2033,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"199",
+    "SNO":"201",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"R.Jagannadha Krishnamacharyulu",
@@ -2024,7 +2043,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"200",
+    "SNO":"202",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"P.Shobanadri",
@@ -2034,7 +2053,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"201",
+    "SNO":"203",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"G.Naaga Venkata Pavan Kumar",
@@ -2044,7 +2063,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":""
     }
     ,{
-    "SNO":"202",
+    "SNO":"204",
     "TITLE":"Shri.",
     "SURNAME":"Khandavalli",
     "NAME":"RadhaKrishna Murty",
@@ -2054,7 +2073,7 @@ export class HydAshramamDonorsComponent implements OnInit {
     "RECEIPT":"2/43"
     }
     ,{
-    "SNO":"203",
+    "SNO":"205",
     "TITLE":"Shri.",
     "SURNAME":"",
     "NAME":"Lakshmi Narasimha Charyulu",
