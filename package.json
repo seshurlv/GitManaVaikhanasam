@@ -28,7 +28,7 @@
         "chartist": "^0.11.0",
         "core-js": "^2.4.1",
         "font-awesome": "^4.7.0",
-        "googleapis": "19.0.0",
+        "googleapis": "39.1.0",
         "jquery": "^3.2.1",
         "ng2-google-charts": "^3.3.0",
         "ng2-select": "^2.0.0",
